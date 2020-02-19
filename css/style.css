@@ -1,0 +1,247 @@
+/*   general  */
+body{
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+  line-height: 135%;
+}
+
+/*  hero section  */
+.nav-bar{
+  float: right;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  line-height: 135%;
+  color: #616161;
+  display: inline-block;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav a:hover{
+  color: #C997C6;
+}
+
+.herotext{
+  text-align: center;
+  padding-top: 300px;
+}
+
+.herotext h4{
+  padding-bottom: 150px;
+}
+
+.logo {
+    float: left;
+    padding-top:20px;
+    padding-left: 20px;
+    }
+
+.logo img {
+    width:50%;
+    }
+
+.airplane img{
+  width: 5%;
+  padding-left: 20px;
+  padding-top: 0px;
+}
+
+/*  seperating boxes  */
+.box_coral{
+  background-color: #FFAAA5;
+  height: 30px;
+  border-top: 80px;
+  border-bottom: 80px;
+}
+
+.box_orange{
+  background-color: #FFD3B6;
+  height: 30px;
+  border-top: 80px;
+  border-bottom: 80px;
+}
+
+.box_teal{
+  background-color: #75C9CC;
+  height: 30px;
+  border-top: 80px;
+  border-bottom: 80px;
+}
+
+.box_mint{
+  background-color: #B7F4DA;
+  height: 30px;
+  border-top: 80px;
+  border-bottom: 80px;
+}
+
+.box_purple{
+  background-color: #F2D9FB;
+  height: 30px;
+  border-top: 80px;
+  border-bottom: 80px;
+}
+
+/*  fonts  */
+  h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    line-height: 135%;
+  }
+
+  h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    line-height: 135%;
+  }
+
+  h3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    line-height: 135%;
+  }
+
+  h4{
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    font-weight: lighter;
+    line-height: 135%;
+  }
+
+  h6{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 135%;
+  }
+
+  p{
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+caption{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  line-height: 135%;
+  text-align: center;
+}
+
+/*  Projects on index.html  */
+
+.glomockup img{
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.projectdescription h2, .projectdescription h3{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.button2{
+  border:solid 3px #C997C6;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 60px auto 60px auto;
+  padding: 8px;
+  width: 150px;
+}
+
+.button2:hover {
+  background-color: #C997C6;
+  color: white;
+  font-weight: bold;
+}
+
+.euromockup img{
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+}
+
+/*  About me on index.html  */
+.cartoonme img{
+  width: 20%;
+  display: block;
+  margin: 60px auto 60px auto;
+}
+
+.aboutmedescription h2, .aboutmedescription p {
+  margin: 60px 340px 0px 340px;
+}
+
+/*  GLO CASESTUDY  */
+.gloherotext{
+  text-align: left;
+  padding-top: 200px;
+}
+
+/*  ABOUT page  */
+.biographycontent h2{
+  padding-top: 200px;
+  text-align: center;
+}
+
+.biographycontent p{
+  margin-left: 340px;
+  margin-right: 340px;
+}
+
+.biographycontent blockquote{
+  margin: 50px 340px 50px 340px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.daniela_photo img{
+  width: 20%;
+  display: block;
+  margin: 60px auto 60px auto;
+}
+
+/*  CONTACT page  */
+.contactherotext{
+  text-align: center;
+  padding-top: 200px;
+}
+
+.orangecartoonme img{
+  width: 20%;
+  display: block;
+  margin: 60px auto 60px auto;
+}
+
+.contactdescription p{
+  margin: 60px 340px 60px 340px;
+}
+
+/*  Footer  */
+footer{
+  background-color: #FAD8D6;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 20px;
+}
