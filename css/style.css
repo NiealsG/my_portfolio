@@ -10,6 +10,11 @@ body{
 }
 
 /*  hero section  */
+
+header{
+  height: 150px;
+}
+
 .nav-bar{
   float: right;
   font-family: 'Roboto Slab', serif;
@@ -20,6 +25,9 @@ body{
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+
+}
+.button a{
   text-decoration: none;
 }
 
@@ -28,13 +36,21 @@ nav ul li {
     padding: 20px;
 }
 
+nav a:link{
+  color: #616161;
+}
+
+nav a:visited{
+  color: #616161;
+}
+
 nav a:hover{
   color: #C997C6;
 }
 
 .herotext{
   text-align: center;
-  padding-top: 300px;
+  padding-top: 150px;
 }
 
 .herotext h4{
@@ -63,6 +79,7 @@ nav a:hover{
   height: 30px;
   border-top: 80px;
   border-bottom: 80px;
+  margin: 80px 0px 80px 0px;
 }
 
 .box_orange{
@@ -70,6 +87,7 @@ nav a:hover{
   height: 30px;
   border-top: 80px;
   border-bottom: 80px;
+  margin: 80px 0px 80px 0px;
 }
 
 .box_teal{
@@ -77,6 +95,7 @@ nav a:hover{
   height: 30px;
   border-top: 80px;
   border-bottom: 80px;
+  margin: 80px 0px 80px 0px;
 }
 
 .box_mint{
@@ -84,6 +103,7 @@ nav a:hover{
   height: 30px;
   border-top: 80px;
   border-bottom: 80px;
+  margin: 80px 0px 80px 0px;
 }
 
 .box_purple{
@@ -91,6 +111,7 @@ nav a:hover{
   height: 30px;
   border-top: 80px;
   border-bottom: 80px;
+  margin: 80px 0px 80px 0px;
 }
 
 /*  fonts  */
@@ -132,12 +153,31 @@ nav a:hover{
     line-height: 150%;
   }
 
-caption{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 14px;
-  line-height: 135%;
-  text-align: center;
-}
+/*   Button  */
+  .button2{
+    border:solid 3px #C997C6;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 60px auto 60px auto;
+    padding: 8px;
+    width: 150px;
+  }
+
+  .button2:hover {
+    background-color: #C997C6;
+    color: white;
+    font-weight: bold;
+  }
+
+  .nomargin{
+    margin: 0px;
+  }
 
 /*  Projects on index.html  */
 
@@ -153,27 +193,6 @@ caption{
 .projectdescription h2, .projectdescription h3{
   text-align: center;
   margin-top: 60px;
-}
-
-.button2{
-  border:solid 3px #C997C6;
-  border-radius: 5px;
-  background-color: white;
-  color: black;
-  font-size: 18px;
-  font-family: 'Quicksand', sans-serif;
-  text-decoration: none;
-  text-align: center;
-  display: block;
-  margin: 60px auto 60px auto;
-  padding: 8px;
-  width: 150px;
-}
-
-.button2:hover {
-  background-color: #C997C6;
-  color: white;
-  font-weight: bold;
 }
 
 .euromockup img{
@@ -196,192 +215,247 @@ caption{
 }
 
 /*  GLO CASESTUDY  */
+
+  /*  hero section */
+.gloproject{
+  display: flex;
+  flex-direction: row;
+  margin-left: 135px;
+  margin-right: 135px;
+  margin-top: 30px;
+}
+
 .gloherotext{
   text-align: left;
-  padding-top: 200px;
-}
-
-.glo_desktop img{
-  width: 60%;
-  display: block;
-  margin: 60px auto 60px auto;
-}
-
-    /*slideshow*/
-
-    /* Slideshow container */
-    .persona-slideshow-container {
-      max-width: 1000px;
-      position: relative;
-      margin: auto;
-    }
-
-    /* Hide the images by default */
-    .mySlides {
-      display: none;
-    }
-
-    /* Next & previous buttons */
-    .prev, .next {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: auto;
-      margin-top: -22px;
-      padding: 16px;
-      color: white;
-      font-weight: bold;
-      font-size: 18px;
-      transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
-      user-select: none;
-    }
-
-    /* Position the "next button" to the right */
-    .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
-    }
-
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover, .next:hover {
-      background-color: rgba(0,0,0,0.8);
-    }
-
-    /* Number text (1/3 etc) */
-    .numbertext {
-      color: #616161;
-      font-size: 12px;
-      padding: 8px 12px;
-      position: absolute;
-      top: 0;
-    }
-
-    /* The dots/bullets/indicators */
-    .dot {
-      cursor: pointer;
-      height: 15px;
-      width: 15px;
-      margin: 0 2px;
-      background-color: #bbb;
-      border-radius: 50%;
-      display: inline-block;
-      transition: background-color 0.6s ease;
-    }
-
-    .active, .dot:hover {
-      background-color: #717171;
-    }
-
-    /* Fading animation */
-    .fade {
-      -webkit-animation-name: fade;
-      -webkit-animation-duration: 1.5s;
-      animation-name: fade;
-      animation-duration: 1.5s;
-    }
-
-    @-webkit-keyframes fade {
-      from {opacity: .4}
-      to {opacity: 1}
-    }
-
-    @keyframes fade {
-      from {opacity: .4}
-      to {opacity: 1}
-    }
-
-.glo_process h4, .glo_process p{
-  margin: 60px 340px 60px 340px;
-}
-
-.glo_comp h4, .glo_comp p{
-  margin: 60px 340px 60px 340px;
-}
-
-.glo_comp ul{
+  margin-right: 135px;
+  margin-top: 90px;
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.buttontwo_glohero{
+  margin-top: 50px;
+}
+
+  /*Roles etc*/
+.roles_etc{
+  display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
-.glo_user_research h4, .glo_user_research p{
-  margin: 60px 340px 60px 340px;
+.glodeliverables{
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
-.glo_user_stories h4, .glo_user_stories p{
-  margin: 60px 340px 60px 340px;
+.glodeliverables h3{
+    text-align: center;
+    text-decoration: underline;
 }
 
+.gloroles h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.glodetails h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+  /* The problem */
+  .glo_problem{
+    margin: 0px 370px 0px 370px;
+  }
+
+  /* The solution */
+  .glo_solution{
+    margin: 0px 370px 0px 370px;
+  }
+
+  /* Desktop image */
+  .glo_desktop img{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* The process */
+  .glo_process{
+    margin: 0px 370px 0px 370px;
+  }
+
+    /* Comp Analysis */
+    .glo_comp{
+      margin: 0px 370px 0px 370px;
+    }
+
+  .glo_comp ul{
+    display: flex;
+    justify-content: center;
+  }
+
+  .glo_comp li{
+    display: inline-block;
+    list-style: none;
+    margin: 32px 20px 0px 20px;
+  }
+
+    /* User Research */
+    .glo_user_research{
+      margin: 0px 370px 0px 370px;
+    }
+
+    /* Personas */
+    .glo_personas{
+      margin: 0px 370px 0px 370px;
+    }
+
+  /* User Stories */
+  .glo_user_stories{
+    margin: 0px 370px 0px 370px;
+  }
+
+  /* Site map */
 .glo_sitemap img{
-  width: 60%;
+  width: 70%;
   display: block;
-  margin: 60px auto 60px auto;
+  margin: 60px auto 0px auto;
 }
 
-/*not working?
-.glo_sitemap caption{
+.glo_sitemap p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  line-height: 135%;
   text-align: center;
-}*/
-
-.glo_user_flows h4, .glo_user_flows p{
-  margin: 60px 340px 60px 340px;
 }
 
-.glo_user_flows img{
-  width: 60%;
+  /* User flows */
+  .glo_user_flows{
+    margin: 0px 370px 0px 370px;
+  }
+
+.glo_flow_pics img{
+  width: 90%;
   display: block;
-  margin: 60px auto 60px auto;
+  margin: 60px auto 0px auto;
 }
 
-.glo_branding h4, .glo_branding p{
-  margin: 60px 340px 60px 340px;
+.glo_flow_pics p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  line-height: 135%;
+  text-align: center;
 }
 
-.glo_branding img{
-  width: 60%;
+  /* Wireframes */
+  .glo_wireframes{
+    margin: 0px 370px 0px 370px;
+  }
+
+  .glo_wf_pics img{
+    width: 90%;
+    display: block;
+    margin: 60px auto 0px auto;
+  }
+
+  .glo_wf_pics p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    line-height: 135%;
+    text-align: center;
+  }
+
+  /* Branding */
+  .glo_branding{
+    margin: 0px 370px 0px 370px;
+  }
+
+.glomoodboard img{
+  width: 70%;
   display: block;
-  margin: 60px auto 60px auto;
+  margin: 60px auto 0px auto;
 }
 
-.glo_hifi h4, .glo_hifi p{
-  margin: 60px 340px 60px 340px;
+.glomoodboard p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  line-height: 135%;
+  text-align: center;
 }
 
-.glo_hifi img{
-  width: 20%;
-  display: inline;
-  justify-content: center;
-  margin: 60px auto 60px auto;
+.glologopics img{
+  width: 100%;
+  display: block;
+  margin: 60px auto 0px auto;
 }
 
-.glo_prototyping h4, .glo_prototyping p{
-  margin: 60px 340px 60px 340px;
+.glologopics p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  line-height: 135%;
+  text-align: center;
 }
 
-.glo_testing h4, .glo_testing p{
-  margin: 60px 340px 60px 340px;
+  /* Hifi Mockups */
+  .glo_hifi{
+    margin: 0px 370px 0px 370px;
+  }
+
+.glo_hifi_pics img{
+  width: 90%;
+  display: block;
+  margin: 60px auto 0px auto;
 }
 
-.glo_testing img{
-  width: 20%;
-  display: inline;
-  justify-content: center;
-  margin: 60px auto 60px auto;
+.glo_hifi_pics p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  line-height: 135%;
+  text-align: center;
 }
 
+  /* prototypes */
+.glo_prototyping{
+    margin: 0px 370px 0px 370px;
+}
+
+  /* user testing */
+.glo_testing{
+    margin: 0px 370px 0px 370px;
+}
+
+.glo_intro_tut img{
+  width: 100%;
+  display: block;
+  margin: 60px auto 0px auto;
+}
+
+.glo_intro_tut p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  line-height: 135%;
+  text-align: center;
+}
+
+  /* couch image */
 .glo_couch img{
   width: 60%;
   display: block;
   margin: 60px auto 60px auto;
 }
 
-.glo_conclusion h4, .glo_conclusion p{
-  margin: 60px 340px 60px 340px;
+  /* Conclusion*/
+.glo_conclusion{
+    margin: 0px 370px 0px 370px;
 }
 
 /*  ABOUT page  */
 .biographycontent h2{
-  padding-top: 200px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -405,7 +479,7 @@ caption{
 /*  CONTACT page  */
 .contactherotext{
   text-align: center;
-  padding-top: 200px;
+  padding-top: 10px;
 }
 
 .orangecartoonme img{
@@ -414,31 +488,63 @@ caption{
   margin: 60px auto 60px auto;
 }
 
-.contactdescription p{
-  margin: 60px 340px 60px 340px;
-}
-
-.formbox {
+.container {
   border: solid 4px #C997C6;
   border-radius: 5px;
-  display: flex;
-  flex-direction: column;
+  padding: 20px;
 }
 
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+  button[type=submit] {
+    border:solid 3px #C997C6;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 8px;
+    width: 150px;
+    cursor: pointer;
+    }
+
+  button[type=submit]:hover {
+    background-color: #C997C6;
+    color: white;
+    font-weight: bold;
+  }
 
 /*  Footer  */
 footer{
-  padding-top: 50px;
+  padding-top: 5px;
   padding-bottom:0px;
   text-align: left;
   padding-left: 20px;
   padding-right:20px;
   background-color: #FAD8D6;
-  display: flex;
+}
+
+footer h6{
+  display: inline-block;
 }
 
 .footerlinks{
-  margin-left: 950px;
-  display: flex;
-  flex-direction: row;
+   float: right;
+}
+
+.footerlinks li{
+  display: inline-block;
+  list-style: none;
 }
