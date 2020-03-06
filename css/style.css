@@ -567,3 +567,86 @@ footer h6{
   display: inline-block;
   list-style: none;
 }
+
+/*     MEDIA QUERIES   */
+
+/*  Tablets  */
+@media screen and (min-width:575px){
+  h1{
+    font-size: 20px;
+    }
+
+  h2{
+    font-size: 20px;
+    }
+
+  h3{
+    font-size: 16px;
+    }
+
+  h4{
+    font-size: 15px;
+    }
+
+  p{
+    font-size: 14px;
+  }
+
+  body{
+    font-size: 14px;
+  }
+
+  .nav-bar{
+    font-size: 30px;
+  }
+
+  .button2{
+    padding: 15px;
+    width: 250px;
+    font-size: 25px;
+    line-height: 135%;
+  }
+
+  .airplane img{
+    width: 8%;
+  }
+
+  footer h6{
+  font-size: 18px;
+  }
+
+  .projectdescription h2, .projectdescription h3{
+    margin: 60px 45px 0px 45px;
+  }
+
+  .glomockup img{
+    width: 80%;
+  }
+
+  .euromockup img{
+    width: 80%;
+  }
+
+  .cartoonme img{
+    width: 40%;
+  }
+
+  .aboutmedescription h2, .aboutmedescription p {
+    margin: 60px 45px 0px 45px;
+  }
+
+  .biographycontent h2{
+    padding-top: 30px;
+  }
+  .biographycontent p{
+    margin: 60px 45px 0px 45px;
+  }
+
+  .biographycontent blockquote{
+    margin: 60px 45px 0px 45px;
+  }
+
+  .daniela_photo img{
+  width: 50%;
+  }
+}
