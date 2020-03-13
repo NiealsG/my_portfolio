@@ -181,7 +181,7 @@ nav a:hover{
 
 /*  Projects on index.html  */
 
-.glomockup img{
+.mockup_image img{
   width: 40%;
   display: block;
   margin-left: auto;
@@ -195,14 +195,6 @@ nav a:hover{
   margin-top: 60px;
 }
 
-.euromockup img{
-  width: 30%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 60px;
-}
-
 /*  About me on index.html  */
 .cartoonme img{
   width: 20%;
@@ -210,8 +202,24 @@ nav a:hover{
   margin: 60px auto 60px auto;
 }
 
-.aboutmedescription h2, .aboutmedescription p {
-  margin: 60px 340px 0px 340px;
+/* NORMAL MARGINS */
+.bodywithmargins {
+  margin: 0px 370px 0px 370px;
+}
+
+/* 60% Width images */
+.large_image img{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.large_image p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  line-height: 135%;
+  text-align: center;
 }
 
 /*  GLO CASESTUDY  */
@@ -265,34 +273,7 @@ nav a:hover{
     text-decoration: underline;
 }
 
-  /* The problem */
-  .glo_problem{
-    margin: 0px 370px 0px 370px;
-  }
-
-  /* The solution */
-  .glo_solution{
-    margin: 0px 370px 0px 370px;
-  }
-
-  /* Desktop image */
-  .glo_desktop img{
-    width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* The process */
-  .glo_process{
-    margin: 0px 370px 0px 370px;
-  }
-
-    /* Comp Analysis */
-    .glo_comp{
-      margin: 0px 370px 0px 370px;
-    }
-
+/*Comp Analysis*/
   .glo_comp ul{
     display: flex;
     justify-content: center;
@@ -303,155 +284,6 @@ nav a:hover{
     list-style: none;
     margin: 32px 20px 0px 20px;
   }
-
-    /* User Research */
-    .glo_user_research{
-      margin: 0px 370px 0px 370px;
-    }
-
-    /* Personas */
-    .glo_personas{
-      margin: 0px 370px 0px 370px;
-    }
-
-  /* User Stories */
-  .glo_user_stories{
-    margin: 0px 370px 0px 370px;
-  }
-
-  /* Site map */
-.glo_sitemap img{
-  width: 70%;
-  display: block;
-  margin: 60px auto 0px auto;
-}
-
-.glo_sitemap p{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 14px;
-  line-height: 135%;
-  text-align: center;
-}
-
-  /* User flows */
-  .glo_user_flows{
-    margin: 0px 370px 0px 370px;
-  }
-
-.glo_flow_pics img{
-  width: 90%;
-  display: block;
-  margin: 60px auto 0px auto;
-}
-
-.glo_flow_pics p{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 14px;
-  line-height: 135%;
-  text-align: center;
-}
-
-  /* Wireframes */
-  .glo_wireframes{
-    margin: 0px 370px 0px 370px;
-  }
-
-  .glo_wf_pics img{
-    width: 90%;
-    display: block;
-    margin: 60px auto 0px auto;
-  }
-
-  .glo_wf_pics p{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 14px;
-    line-height: 135%;
-    text-align: center;
-  }
-
-  /* Branding */
-  .glo_branding{
-    margin: 0px 370px 0px 370px;
-  }
-
-.glomoodboard img{
-  width: 70%;
-  display: block;
-  margin: 60px auto 0px auto;
-}
-
-.glomoodboard p{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 14px;
-  line-height: 135%;
-  text-align: center;
-}
-
-.glologopics img{
-  width: 100%;
-  display: block;
-  margin: 60px auto 0px auto;
-}
-
-.glologopics p{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 14px;
-  line-height: 135%;
-  text-align: center;
-}
-
-  /* Hifi Mockups */
-  .glo_hifi{
-    margin: 0px 370px 0px 370px;
-  }
-
-.glo_hifi_pics img{
-  width: 90%;
-  display: block;
-  margin: 60px auto 0px auto;
-}
-
-.glo_hifi_pics p{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 14px;
-  line-height: 135%;
-  text-align: center;
-}
-
-  /* prototypes */
-.glo_prototyping{
-    margin: 0px 370px 0px 370px;
-}
-
-  /* user testing */
-.glo_testing{
-    margin: 0px 370px 0px 370px;
-}
-
-.glo_intro_tut img{
-  width: 100%;
-  display: block;
-  margin: 60px auto 0px auto;
-}
-
-.glo_intro_tut p{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 14px;
-  line-height: 135%;
-  text-align: center;
-}
-
-  /* couch image */
-.glo_couch img{
-  width: 60%;
-  display: block;
-  margin: 60px auto 60px auto;
-}
-
-  /* Conclusion*/
-.glo_conclusion{
-    margin: 0px 370px 0px 370px;
-}
 
 /*  ABOUT page  */
 .biographycontent h2{
@@ -566,87 +398,4 @@ footer h6{
 .footerlinks li{
   display: inline-block;
   list-style: none;
-}
-
-/*     MEDIA QUERIES   */
-
-/*  Tablets  */
-@media screen and (max-width:600px){
-  h1{
-    font-size: 20px;
-    }
-
-  h2{
-    font-size: 20px;
-    }
-
-  h3{
-    font-size: 16px;
-    }
-
-  h4{
-    font-size: 15px;
-    }
-
-  p{
-    font-size: 14px;
-  }
-
-  body{
-    font-size: 14px;
-  }
-
-  .nav-bar{
-    font-size: 30px;
-  }
-
-  .button2{
-    padding: 15px;
-    width: 250px;
-    font-size: 25px;
-    line-height: 135%;
-  }
-
-  .airplane img{
-    width: 8%;
-  }
-
-  footer h6{
-  font-size: 18px;
-  }
-
-  .projectdescription h2, .projectdescription h3{
-    margin: 60px 45px 0px 45px;
-  }
-
-  .glomockup img{
-    width: 80%;
-  }
-
-  .euromockup img{
-    width: 80%;
-  }
-
-  .cartoonme img{
-    width: 40%;
-  }
-
-  .aboutmedescription h2, .aboutmedescription p {
-    margin: 60px 45px 0px 45px;
-  }
-
-  .biographycontent h2{
-    padding-top: 30px;
-  }
-  .biographycontent p{
-    margin: 60px 45px 0px 45px;
-  }
-
-  .biographycontent blockquote{
-    margin: 60px 45px 0px 45px;
-  }
-
-  .daniela_photo img{
-  width: 50%;
-  }
 }
