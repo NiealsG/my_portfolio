@@ -480,10 +480,13 @@ h6{
 .gloherotext{
   text-align: left;
   margin-right: 135px;
-  margin-top: 90px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
+}
+
+.glohand img{
+  width: 100%;
 }
 
 .buttontwo_glohero{
@@ -515,6 +518,10 @@ margin-right: 150px;
 .glodetails h3{
   text-align: center;
   text-decoration: underline;
+}
+
+.roles_etc li{
+  text-align: left;
 }
 
 .biographycontent p{
