@@ -1,3 +1,5 @@
+      /*   CODED - MOBILE FIRST    */
+
 /*   general  */
 *,*:before, *:after{
   box-sizing: border-box;
@@ -12,18 +14,21 @@ body{
 /*  hero section  */
 
 header{
-  height: 150px;
+  height: 100px;
+}
+
+.logo {
+  width: 30%;
 }
 
 .nav-bar{
   float: right;
   font-family: 'Roboto Slab', serif;
-  font-size: 30px;
-  line-height: 135%;
+  font-size: 16px;
   color: #616161;
-  display: inline-block;
+  display: block;
   padding-right: 20px;
-  padding-top: 20px;
+  margin-top: 20px;
   padding-bottom: 20px;
 
 }
@@ -33,7 +38,7 @@ header{
 
 nav ul li {
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
 }
 
 nav a:link{
@@ -50,11 +55,8 @@ nav a:hover{
 
 .herotext{
   text-align: center;
-  padding-top: 150px;
-}
-
-.herotext h4{
-  padding-bottom: 80px;
+  padding-top: 50px;
+  margin: 0px 30px 0px 30px;
 }
 
 .logo {
@@ -68,50 +70,39 @@ nav a:hover{
     }
 
 .airplane img{
-  width: 8%;
-  padding-left: 20px;
-  padding-top: 0px;
+  width: 15%;
+  padding-left: 10px;
 }
 
 /*  seperating boxes  */
 .box_coral{
   background-color: #FFAAA5;
   height: 30px;
-  border-top: 80px;
-  border-bottom: 80px;
-  margin: 80px 0px 80px 0px;
+  margin: 50px 0px 50px 0px;
 }
 
 .box_orange{
   background-color: #FFD3B6;
   height: 30px;
-  border-top: 80px;
-  border-bottom: 80px;
-  margin: 80px 0px 80px 0px;
+  margin: 50px 0px 50px 0px;
 }
 
 .box_teal{
   background-color: #75C9CC;
   height: 30px;
-  border-top: 80px;
-  border-bottom: 80px;
-  margin: 80px 0px 80px 0px;
+  margin: 50px 0px 50px 0px;
 }
 
 .box_mint{
   background-color: #B7F4DA;
   height: 30px;
-  border-top: 80px;
-  border-bottom: 80px;
-  margin: 80px 0px 80px 0px;
+  margin: 50px 0px 50px 0px;
 }
 
 .box_purple{
   background-color: #F2D9FB;
   height: 30px;
-  border-top: 80px;
-  border-bottom: 80px;
-  margin: 80px 0px 80px 0px;
+  margin: 50px 0px 50px 0px;
 }
 
 /*  fonts  */
@@ -135,15 +126,14 @@ nav a:hover{
 
   h4{
     font-family: 'Roboto Slab', serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: lighter;
     line-height: 135%;
   }
 
   h6{
     font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 12px;
     line-height: 135%;
   }
 
@@ -159,14 +149,14 @@ nav a:hover{
     border-radius: 5px;
     background-color: white;
     color: black;
-    font-size: 25px;
+    font-size: 16px;
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
     text-align: center;
     display: block;
     margin: 60px auto 60px auto;
-    padding: 15px;
-    width: 250px;
+    padding: 10px;
+    width: 150px;
   }
 
   .button2:hover {
@@ -225,12 +215,46 @@ nav a:hover{
 
 /*  GLO CASESTUDY  */
 
+.gloprojectdescription {
+  margin: 45px 45px 0px 45px;
+  text-align: center;
+}
+
+.large_image_glo img{
+  width: 100%;
+  display: block;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
   /*Roles etc*/
 .roles_etc{
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+
+.roles_etc ul{
+  list-style: none;
+}
+
+.roles_etc li{
+  font-family: 'Muli', sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.glo_problem ul{
+  margin: 0px 45px 0px 45px;
+  list-style: disc;
+}
+
+.glo_problem li{
+  font-family: 'Muli', sans-serif;
+  font-size: 14px;
+  line-height: 150%;
 }
 
 /*Comp Analysis*/
@@ -242,7 +266,7 @@ nav a:hover{
   .glo_comp li{
     display: inline-block;
     list-style: none;
-    margin: 32px 20px 0px 20px;
+    margin: 32px 10px 0px 10px;
   }
 
 /*  ABOUT page  */
@@ -257,7 +281,7 @@ nav a:hover{
 }
 
 .biographycontent blockquote{
-  margin: 50px 45px 50px 45px;
+  margin: 50px 25px 50px 25px;
   font-weight: bold;
   text-align: center;
 }
@@ -272,7 +296,6 @@ nav a:hover{
 .contactherotext h2{
   text-align: center;
   padding-top: 30px;
-  font-size: 40px;
 }
 
 .orangecartoonme img{
@@ -309,7 +332,7 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: white;
     color: black;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
     text-align: center;
@@ -336,31 +359,31 @@ input[type=text], select, textarea {
 
 .myresume p{
   margin-left: 32px;
+  margin-top: 20px;
 }
 
 /*  Footer  */
 footer{
-  padding-top: 5px;
-  padding-bottom:0px;
-  text-align: left;
-  padding-left: 20px;
-  padding-right:20px;
+  padding-left: 10px;
   background-color: #FAD8D6;
+  display: flex;
+  height: 80px;
 }
 
-footer h6{
-  display: inline-block;
-  font-size: 20px;
-}
-
-.footerlinks{
-   float: right;
+.footer h6 {
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .footerlinks li{
-  padding-top: 5px;
-  display: inline-block;
   list-style: none;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.footerlogo img{
+  width: 20px;
+  flex-direction: row;
 }
 
 /*     MEDIA QUERIES    */
@@ -368,33 +391,64 @@ footer h6{
 @media screen and (min-width: 575px) {
 
   h1{
-font-size: 40px;
+font-size: 30px;
 }
 
 h2{
-font-size: 30px;
-}
-
-h3{
 font-size: 25px;
 }
 
+h3{
+font-size: 20px;
+}
+
 h4{
-font-size: 30px;
+font-size: 25px;
 }
 
 p{
-font-size: 30px;
+font-size: 18px;
+}
+
+/*  hero section  */
+
+.nav-bar{
+  font-size: 20px;
+}
+
+.logo {
+  width: 15%;
+}
+
+.button2{
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+  width: 150px;
 }
 
 .herotext h4{
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .airplane img{
-   width: 12%;
+   width: 10%;
  }
+
+/* Glo casestudy*/
+.roles_etc li{
+  font-size: 18px;
+}
+
+.glo_problem li{
+  font-size: 18px;
+}
+
+/*  About me  */
+
+.daniela_photo img{
+  width: 50%;
+}
 
  .biographycontent blockquote{
    font-size: 30px;
@@ -403,6 +457,8 @@ font-size: 30px;
 
         /* Desktop */
 @media screen and (min-width: 1199px) {
+
+/*  FONTS  */
   h1{
 font-size: 35px;
 }
@@ -426,21 +482,6 @@ font-size: 18px;
 h6{
   font-size: 16px;
 }
-.airplane img{
-   width: 8%;
- }
-
-.nav-bar{
-  font-size: 20px;
-}
-
-.mockup_image img{
-  width: 40%;
-}
-
-.cartoonme img{
-  width: 20%;
-}
 
 /* NORMAL MARGINS */
 .bodywithmargins {
@@ -449,7 +490,7 @@ h6{
 
 /* 60% Width images */
 .large_image img{
-  width: 50%;
+  width: 70%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -462,8 +503,65 @@ h6{
   text-align: center;
 }
 
-.button2{
-  font-size: 18px;
+/* Seperating boxes  */
+.box_coral{
+  margin: 80px 0px 80px 0px;
+}
+
+.box_orange{
+  margin: 80px 0px 80px 0px;
+}
+
+.box_teal{
+  margin: 80px 0px 80px 0px;
+}
+
+.box_mint{
+  margin: 80px 0px 80px 0px;
+}
+
+.box_purple{
+  margin: 80px 0px 80px 0px;
+}
+
+/*  Index.html  */
+.airplane img{
+   width: 5%;
+ }
+
+ .nav-bar{
+   font-size: 20px;
+ }
+
+ .button2{
+   font-size: 18px;
+ }
+
+ .mockup_image img{
+   width: 40%;
+ }
+
+ .cartoonme img{
+   width: 20%;
+ }
+
+/*   About Me    */
+.biographycontent h2 {
+    padding-top: 100px;
+}
+
+.biographycontent p{
+  margin-left: 340px;
+  margin-right: 340px;
+}
+
+.biographycontent blockquote{
+  margin: 50px 340px 50px 340px;
+  font-size: 20px;
+}
+
+.daniela_photo img{
+  width: 20%;
 }
 
 /*  GLO CASESTUDY  */
@@ -474,23 +572,19 @@ h6{
   flex-direction: row;
   margin-left: 135px;
   margin-right: 135px;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
-.gloherotext{
+.gloprojectdescription {
   text-align: left;
-  margin-right: 135px;
+  margin-top: 135px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
 }
 
-.glohand img{
+.large_image_glo {
   width: 100%;
-}
-
-.buttontwo_glohero{
-  margin-top: 50px;
 }
 
 /*Roles etc*/
@@ -498,6 +592,15 @@ h6{
 display: flex;
 flex-direction: row;
 justify-content: center;
+}
+
+.roles_etc li{
+  text-align: center;
+  font-size: 18px;
+}
+
+.glo_problem li{
+  font-size: 18px;
 }
 
 .glodeliverables{
@@ -520,23 +623,7 @@ margin-right: 150px;
   text-decoration: underline;
 }
 
-.roles_etc li{
-  text-align: left;
-}
-
-.biographycontent p{
-  margin-left: 340px;
-  margin-right: 340px;
-}
-
-.biographycontent blockquote{
-  margin: 50px 340px 50px 340px;
-}
-
-.daniela_photo img{
-  width: 20%;
-}
-
+/*  CONTACT PAGE  */
 .orangecartoonme img{
   width: 20%;
 }
@@ -548,6 +635,8 @@ margin-right: 150px;
 .container {
     max-width: 700px;
   }
+
+/*  FOOTER  */
 
   footer h6{
     font-size: 16px;
