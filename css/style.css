@@ -363,22 +363,24 @@ input[type=text], select, textarea {
 }
 
 /*  Footer  */
-footer{
+footer {
   padding-left: 10px;
   background-color: #FAD8D6;
-  display: flex;
   height: 80px;
+  display: flex;
 }
 
-.footer h6 {
+footer h6{
   flex-direction: row;
-  justify-content: flex-start;
 }
 
-.footerlinks li{
+footer ul{
+  flex-direction: row;
+}
+
+footer li{
   list-style: none;
   flex-direction: row;
-  justify-content: flex-end;
 }
 
 .footerlogo img{
@@ -641,4 +643,14 @@ margin-right: 150px;
   footer h6{
     font-size: 16px;
   }
+}
+
+/* Setting max width for larger screens */
+@media screen and (min-width: 1440px) {
+
+.bodywithmargins{
+  max-width: 760px;
+  margin: auto;
+  }
+
 }
