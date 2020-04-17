@@ -366,26 +366,31 @@ input[type=text], select, textarea {
 footer {
   padding-left: 10px;
   background-color: #FAD8D6;
-  height: 80px;
+  height: 50px;
   display: flex;
 }
 
 footer h6{
   flex-direction: row;
+  flex: 1;
+  padding-top: 10px;
 }
 
 footer ul{
   flex-direction: row;
+  display: flex;
 }
 
 footer li{
   list-style: none;
   flex-direction: row;
+  padding-right: 20px;
 }
 
 .footerlogo img{
-  width: 20px;
+  width: 30px;
   flex-direction: row;
+  padding-top: 10px;
 }
 
 /*     MEDIA QUERIES    */
