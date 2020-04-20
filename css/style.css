@@ -658,4 +658,19 @@ margin-right: 150px;
   margin: auto;
   }
 
+  .herotext h4{
+    max-width: 760px;
+    margin: auto;
+  }
+
+.biographycontent h2{
+  max-width: 760px;
+  margin: auto;
+  }
+
+.biographycontent p{
+  max-width: 760px;
+  margin: auto;
+  }
+
 }
