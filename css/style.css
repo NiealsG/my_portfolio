@@ -182,7 +182,7 @@ nav a:hover{
 
 .projectdescription h2, .projectdescription h3{
   text-align: center;
-  margin: 60px 45px 0px 45px;
+  margin: 10px 45px 0px 45px;
 }
 
 /*  About me on index.html  */
@@ -202,6 +202,7 @@ nav a:hover{
   width: 100%;
   display: block;
   margin-top: 60px;
+  margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -267,6 +268,8 @@ nav a:hover{
     display: inline-block;
     list-style: none;
     margin: 32px 10px 0px 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
 /*  ABOUT page  */
@@ -283,13 +286,14 @@ nav a:hover{
 .biographycontent blockquote{
   margin: 50px 25px 50px 25px;
   font-weight: bold;
+  font-size: 18px;
   text-align: center;
 }
 
 .daniela_photo img{
   width: 70%;
   display: block;
-  margin: 60px auto 60px auto;
+  margin: 40px auto 40px auto;
 }
 
 /*  CONTACT page  */
@@ -373,7 +377,7 @@ footer {
 footer h6{
   flex-direction: row;
   flex: 1;
-  padding-top: 10px;
+  padding-top: 14px;
 }
 
 footer ul{
@@ -430,7 +434,7 @@ font-size: 18px;
 .button2{
   font-size: 18px;
   font-family: 'Quicksand', sans-serif;
-  width: 150px;
+  width: 200px;
 }
 
 .herotext h4{
@@ -630,6 +634,10 @@ margin-right: 150px;
   text-decoration: underline;
 }
 
+.glo_comp li{
+  padding-left: 50px;
+  padding-right: 50px;
+}
 /*  CONTACT PAGE  */
 .orangecartoonme img{
   width: 20%;
@@ -654,12 +662,12 @@ margin-right: 150px;
 @media screen and (min-width: 1440px) {
 
 .bodywithmargins{
-  max-width: 760px;
+  max-width: 650px;
   margin: auto;
   }
 
   .herotext h4{
-    max-width: 760px;
+    max-width: 500px;
     margin: auto;
   }
 
