@@ -1,4 +1,4 @@
-      /*   CODED - MOBILE FIRST    */
+/*   CODED - MOBILE FIRST    */
 
 /*   general  */
 *,*:before, *:after{
@@ -37,10 +37,12 @@ header{
 }
 
 nav ul li {
-    display: inline-block;
-    padding: 10px;
+  display: inline-block;
 }
 
+nav a{
+  padding: 10px;
+}
 nav a:link{
   color: #616161;
 }
@@ -53,6 +55,10 @@ nav a:hover{
   color: #C997C6;
 }
 
+nav .current{
+  font-weight: bold;
+}
+
 .herotext{
   text-align: center;
   padding-top: 50px;
@@ -60,14 +66,14 @@ nav a:hover{
 }
 
 .logo {
-    float: left;
-    padding-top:20px;
-    padding-left: 20px;
-    }
+  float: left;
+  padding-top:20px;
+  padding-left: 20px;
+}
 
 .logo img {
-    width:50%;
-    }
+  width:35%;
+}
 
 .airplane img{
   width: 15%;
@@ -106,68 +112,129 @@ nav a:hover{
 }
 
 /*  fonts  */
-  h1{
-    font-family: 'Roboto Slab', serif;
-    font-size: 20px;
-    line-height: 135%;
-  }
+h1{
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  line-height: 135%;
+}
 
-  h2{
-    font-family: 'Roboto Slab', serif;
-    font-size: 20px;
-    line-height: 135%;
-  }
+h2{
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  line-height: 135%;
+}
 
-  h3{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
-    line-height: 135%;
-  }
+h3{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  line-height: 135%;
+}
 
-  h4{
-    font-family: 'Roboto Slab', serif;
-    font-size: 18px;
-    font-weight: lighter;
-    line-height: 135%;
-  }
+h4{
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 135%;
+}
 
-  h6{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 12px;
-    line-height: 135%;
-  }
+h5{  /*image captions*/
+  font-family: 'Quicksand', sans-serif;
+  font-size: 10px;
+  line-height: 135%;
+  text-align: center;
+  padding-bottom: 20px;
+}
 
-  p{
-    font-family: 'Muli', sans-serif;
-    font-size: 14px;
-    line-height: 150%;
-  }
+h6{ /*footer only*/
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12px;
+  line-height: 135%;
+}
+
+p{
+  font-family: 'Muli', sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  padding: 20px 0px 20px 0px;
+}
 
 /*   Button  */
-  .button2{
-    border:solid 3px #C997C6;
-    border-radius: 5px;
-    background-color: white;
-    color: black;
-    font-size: 16px;
-    font-family: 'Quicksand', sans-serif;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    margin: 60px auto 60px auto;
-    padding: 10px;
-    width: 150px;
-  }
+.button2{
+  border:solid 3px #C997C6;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 20px auto 20px auto;
+  padding: 10px;
+  width: 150px;
+}
 
-  .button2:hover {
-    background-color: #C997C6;
-    color: white;
-    font-weight: bold;
-  }
+.button2:hover {
+  background-color: #C997C6;
+  color: white;
+  font-weight: bold;
+}
 
-  .nomargin{
-    margin: 0px;
-  }
+.nomargin{
+  margin: 0px;
+}
+
+/* NORMAL MARGINS */
+.bodywithmargins {
+  margin: 0px 45px 0px 45px;
+}
+
+/* IMAGES */
+.large_image{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.screenshot{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.medium_image{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+/* Back to Top button */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #C997C6; /* Set a background color */
+  color: white; /* Text color */
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+  background-color: #727272; /* Add a dark-grey background on hover */
+}
 
 /*  Projects on index.html  */
 
@@ -192,28 +259,6 @@ nav a:hover{
   margin: 60px auto 60px auto;
 }
 
-/* NORMAL MARGINS */
-.bodywithmargins {
-  margin: 0px 45px 0px 45px;
-}
-
-/* 60% Width images */
-.large_image img{
-  width: 100%;
-  display: block;
-  margin-top: 60px;
-  margin-bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.large_image p{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 10px;
-  line-height: 135%;
-  text-align: center;
-}
-
 /*  GLO CASESTUDY  */
 
 .gloprojectdescription {
@@ -229,7 +274,7 @@ nav a:hover{
   margin-right: auto;
 }
 
-  /*Roles etc*/
+/*Roles etc*/
 .roles_etc{
   display: flex;
   flex-direction: column;
@@ -259,31 +304,74 @@ nav a:hover{
   line-height: 150%;
 }
 
-.glo_persona_sum img{
-  width: 50%;
+.glo_stories{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.glo_persona_sum{
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 /*Comp Analysis*/
-  .glo_comp ul{
-    display: flex;
-    justify-content: center;
-  }
+.glo_comp_pics ul{
+  display: flex;
+  justify-content: center;
+}
 
-  .glo_comp li{
-    display: inline-block;
-    list-style: none;
-    margin: 32px 10px 0px 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+.glo_comp_pics li{
+  display: inline-block;
+  list-style: none;
+  margin: 32px 0px 32px 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
-  .glo_conclusion h3{
-    font-weight: bold;
-    text-align: center;
-  }
+.glo_comp_list ul{
+  margin: 0px 45px 0px 45px;
+  list-style: disc;
+}
+
+.glo_comp_list li{
+  font-family: 'Muli', sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.glo_comp_list h3{
+  font-weight: bold;
+  padding-top: 20px;
+  line-height: 150%;
+}
+
+.desktop_only img{
+  display: none;
+}
+
+.mobile_only img{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.glo_conclusion h4{
+  padding-top: 40px;
+}
+
+.glo_conclusion h3{
+  font-weight: bold;
+  text-align: center;
+  line-height: 150%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
 
 /*  ABOUT page  */
 .biographycontent h2{
@@ -345,27 +433,27 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-  button[type=submit] {
-    border:solid 3px #C997C6;
-    border-radius: 5px;
-    background-color: white;
-    color: black;
-    font-size: 16px;
-    font-family: 'Quicksand', sans-serif;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    padding: 8px;
-    width: 150px;
-    cursor: pointer;
-    margin:auto;
-    }
+button[type=submit] {
+  border:solid 3px #C997C6;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 8px;
+  width: 150px;
+  cursor: pointer;
+  margin:auto;
+}
 
-  button[type=submit]:hover {
-    background-color: #C997C6;
-    color: white;
-    font-weight: bold;
-  }
+button[type=submit]:hover {
+  background-color: #C997C6;
+  color: white;
+  font-weight: bold;
+}
 
 .myresume{
   display: flex;
@@ -412,287 +500,376 @@ footer li{
 }
 
 /*     MEDIA QUERIES    */
-        /* Tablet */
+/* Tablet */
 @media screen and (min-width: 575px) {
 
   h1{
-font-size: 30px;
-}
-
-h2{
-font-size: 25px;
-}
-
-h3{
-font-size: 20px;
-}
-
-h4{
-font-size: 25px;
-}
-
-p{
-font-size: 18px;
-}
-
-/*  hero section  */
-
-.nav-bar{
-  font-size: 20px;
-}
-
-.logo {
-  width: 15%;
-}
-
-.button2{
-  font-size: 18px;
-  font-family: 'Quicksand', sans-serif;
-  width: 200px;
-}
-
-.herotext h4{
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-.airplane img{
-   width: 10%;
- }
-
-/* Glo casestudy*/
-.roles_etc li{
-  font-size: 18px;
-}
-
-.glo_problem li{
-  font-size: 18px;
-}
-
-/*  About me  */
-
-.daniela_photo img{
-  width: 50%;
-}
-
- .biographycontent blockquote{
-   font-size: 30px;
-   line-height: 135%;
-}
-
-        /* Desktop */
-@media screen and (min-width: 1199px) {
-
-/*  FONTS  */
-  h1{
-font-size: 35px;
-}
-
-h2{
-font-size: 25px;
-}
-
-h3{
-font-size: 20px;
-}
-
-h4{
-font-size: 25px;
-}
-
-p{
-font-size: 18px;
-}
-
-h6{
-  font-size: 16px;
-}
-
-/* NORMAL MARGINS */
-.bodywithmargins {
-  margin: 0px 370px 0px 370px;
-}
-
-/* 60% Width images */
-.large_image img{
-  width: 70%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.large_image p{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 14px;
-  line-height: 135%;
-  text-align: center;
-}
-
-/* Seperating boxes  */
-.box_coral{
-  margin: 80px 0px 80px 0px;
-}
-
-.box_orange{
-  margin: 80px 0px 80px 0px;
-}
-
-.box_teal{
-  margin: 80px 0px 80px 0px;
-}
-
-.box_mint{
-  margin: 80px 0px 80px 0px;
-}
-
-.box_purple{
-  margin: 80px 0px 80px 0px;
-}
-
-/*  Index.html  */
-.airplane img{
-   width: 5%;
- }
-
- .nav-bar{
-   font-size: 20px;
- }
-
- .button2{
-   font-size: 18px;
- }
-
- .mockup_image img{
-   width: 40%;
- }
-
- .cartoonme img{
-   width: 20%;
- }
-
-/*   About Me    */
-.biographycontent h2 {
-    padding-top: 100px;
-}
-
-.biographycontent p{
-  margin-left: 340px;
-  margin-right: 340px;
-}
-
-.biographycontent blockquote{
-  margin: 50px 340px 50px 340px;
-  font-size: 20px;
-}
-
-.daniela_photo img{
-  width: 20%;
-}
-
-/*  GLO CASESTUDY  */
-
-  /*  hero section */
-.gloproject{
-  display: flex;
-  flex-direction: row;
-  margin-left: 135px;
-  margin-right: 135px;
-  margin-top: 100px;
-}
-
-.gloprojectdescription {
-  text-align: left;
-  margin-top: 135px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.large_image_glo {
-  width: 100%;
-}
-
-/*Roles etc*/
-.roles_etc{
-display: flex;
-flex-direction: row;
-justify-content: center;
-}
-
-.roles_etc li{
-  text-align: center;
-  font-size: 18px;
-}
-
-.glo_problem li{
-  font-size: 18px;
-}
-
-.glodeliverables{
-margin-left: 150px;
-margin-right: 150px;
-}
-
-.glodeliverables h3{
-  text-align: center;
-  text-decoration: underline;
-}
-
-.gloroles h3{
-  text-align: center;
-  text-decoration: underline;
-}
-
-.glodetails h3{
-  text-align: center;
-  text-decoration: underline;
-}
-
-.glo_comp li{
-  padding-left: 50px;
-  padding-right: 50px;
-}
-/*  CONTACT PAGE  */
-.orangecartoonme img{
-  width: 20%;
-}
-
-.contactdescription{
-  margin: 0px 370px 80px 370px;
-}
-
-.container {
-    max-width: 700px;
+    font-size: 30px;
   }
 
-/*  FOOTER  */
-
-  footer h6{
-    font-size: 16px;
-  }
-}
-
-/* Setting max width for larger screens */
-@media screen and (min-width: 1440px) {
-
-.bodywithmargins{
-  max-width: 650px;
-  margin: auto;
+  h2{
+    font-size: 25px;
   }
 
-  .herotext h4{
-    max-width: 500px;
+  h3{
+    font-size: 20px;
+  }
+
+  h4{
+    font-size: 25px;
+  }
+
+  h5{
+    font-size: 14px;
+  }
+
+  p{
+    font-size: 18px;
+  }
+
+  .bodywithmargins{
+    max-width: 600px;
     margin: auto;
   }
 
-.biographycontent h2{
-  max-width: 760px;
-  margin: auto;
-  }
-
-.biographycontent p{
-  max-width: 760px;
-  margin: auto;
-  }
-
+.medium_image{
+  width: 80%;
 }
+
+  /*  hero section  */
+
+  .nav-bar{
+    font-size: 20px;
+  }
+
+  .logo {
+    width: 15%;
+  }
+
+  .button2{
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    width: 200px;
+  }
+
+  .herotext h4{
+    max-width: 600px;
+    margin: auto;
+    line-height: 135%;
+  }
+
+  .airplane img{
+    width: 10%;
+  }
+
+  /* Glo casestudy*/
+  .roles_etc li{
+    font-size: 18px;
+  }
+
+  .glo_problem li{
+    font-size: 18px;
+  }
+
+  .glo_persona_sum{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .glo_comp_list li{
+    font-size: 18px;
+  }
+
+  .mobile_only img{
+    width: 70%;
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .screenshot{
+    width: 70%;
+  }
+
+  /*  About me  */
+
+  .daniela_photo img{
+    width: 50%;
+  }
+
+  .biographycontent p{
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .biographycontent blockquote{
+    font-size: 30px;
+    line-height: 135%;
+  }
+
+  /* Desktop */
+  @media screen and (min-width: 1199px) {
+
+    /*  FONTS  */
+    h1{
+      font-size: 35px;
+    }
+
+    h2{
+      font-size: 25px;
+    }
+
+    h3{
+      font-size: 20px;
+    }
+
+    h4{
+      font-size: 25px;
+    }
+
+    p{
+      font-size: 18px;
+    }
+
+    h6{
+      font-size: 16px;
+    }
+
+    /* NORMAL MARGINS */
+    .bodywithmargins {
+      max-width: 650px;
+      margin: auto;
+    }
+
+    /* Images */
+    .large_image{
+      width: 70%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .large_image p{
+      font-family: 'Quicksand', sans-serif;
+      font-size: 14px;
+      line-height: 135%;
+      text-align: center;
+    }
+
+    .medium_image{
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .glo_stories{
+      width: 80%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .screenshot{
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    /* Seperating boxes  */
+    .box_coral{
+      margin: 80px 0px 80px 0px;
+    }
+
+    .box_orange{
+      margin: 80px 0px 80px 0px;
+    }
+
+    .box_teal{
+      margin: 80px 0px 80px 0px;
+    }
+
+    .box_mint{
+      margin: 80px 0px 80px 0px;
+    }
+
+    .box_purple{
+      margin: 80px 0px 80px 0px;
+    }
+
+    /*  Index.html  */
+    .airplane img{
+      width: 5%;
+    }
+
+    .hero h4{
+      max-width: 720px;
+      margin: auto;
+      line-height: 135%;
+    }
+
+    .nav-bar{
+      font-size: 20px;
+    }
+
+    .button2{
+      font-size: 18px;
+    }
+
+    .mockup_image img{
+      width: 40%;
+    }
+
+    .cartoonme img{
+      width: 20%;
+    }
+
+    /*   About Me    */
+    .biographycontent h2 {
+      padding-top: 100px;
+    }
+
+    .biographycontent p{
+      max-width: 650px;
+      margin: auto;
+    }
+
+    .biographycontent blockquote{
+      margin: 50px 340px 50px 340px;
+      font-size: 20px;
+    }
+
+    .daniela_photo img{
+      width: 20%;
+    }
+
+    /*  GLO CASESTUDY  */
+
+    /*  hero section */
+    .gloproject{
+      display: flex;
+      flex-direction: row;
+      margin-left: 135px;
+      margin-right: 135px;
+      margin-top: 100px;
+    }
+
+    .gloprojectdescription{
+      text-align: left;
+      margin-top: 135px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .large_image_glo{
+      width: 100%;
+    }
+
+    /*Roles etc*/
+    .roles_etc{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .roles_etc li{
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .glo_problem li{
+      font-size: 18px;
+    }
+
+    .glodeliverables{
+      margin-left: 150px;
+      margin-right: 150px;
+    }
+
+    .glodeliverables h3{
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    .gloroles h3{
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    .glodetails h3{
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    .glo_comp_pics li{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    .glo_persona_sum{
+      width: 40%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .desktop_only img{
+      width: 60%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .mobile_only img{
+      display: none;
+    }
+
+    /*  CONTACT PAGE  */
+    .orangecartoonme img{
+      width: 20%;
+    }
+
+    .contactdescription{
+      margin: 0px 370px 80px 370px;
+    }
+
+    .container {
+      max-width: 700px;
+    }
+
+    /*  FOOTER  */
+
+    footer h6{
+      font-size: 16px;
+    }
+  }
+
+  /* Setting max width for larger screens */
+  @media screen and (min-width: 1440px) {
+
+    .bodywithmargins{
+      max-width: 650px;
+      margin: auto;
+    }
+
+    .hero h4{
+      max-width: 850px;
+      margin: auto;
+      line-height: 135%;
+    }
+
+    .biographycontent h2{
+      max-width: 760px;
+      margin: auto;
+    }
+
+    .biographycontent p{
+      max-width: 760px;
+      margin: auto;
+    }
+
+  }
