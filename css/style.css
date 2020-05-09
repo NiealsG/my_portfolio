@@ -120,6 +120,7 @@ h1{
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
   line-height: 135%;
+  padding-bottom: 30px;
 }
 
 h2{
@@ -718,7 +719,7 @@ footer li{
     }
 
     .hero h4{
-      max-width: 720px;
+      max-width: 850px;
       margin: auto;
       line-height: 135%;
     }
@@ -880,5 +881,4 @@ footer li{
       max-width: 760px;
       margin: auto;
     }
-
   }
