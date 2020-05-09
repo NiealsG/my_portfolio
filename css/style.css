@@ -11,6 +11,10 @@ body{
   line-height: 135%;
 }
 
+strong{
+font-weight:bold;
+}
+
 /*  hero section  */
 
 header{
@@ -213,6 +217,13 @@ p{
   padding-top: 20px;
 }
 
+.small_image{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Back to Top button */
 #myBtn {
   display: none; /* Hidden by default */
@@ -304,21 +315,6 @@ p{
   line-height: 150%;
 }
 
-.glo_stories{
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 20px;
-}
-
-.glo_persona_sum{
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /*Comp Analysis*/
 .glo_comp_pics ul{
   display: flex;
@@ -347,6 +343,17 @@ p{
 .glo_comp_list h3{
   font-weight: bold;
   padding-top: 20px;
+  line-height: 150%;
+}
+
+.glo_testing ul{
+  margin: 0px 45px 0px 45px;
+  list-style: disc;
+}
+
+.glo_testing li{
+  font-family: 'Muli', sans-serif;
+  font-size: 14px;
   line-height: 150%;
 }
 
@@ -401,7 +408,7 @@ p{
 /*  CONTACT page  */
 .contactherotext h2{
   text-align: center;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 .orangecartoonme img{
@@ -536,6 +543,13 @@ footer li{
   width: 80%;
 }
 
+.small_image{
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
   /*  hero section  */
 
   .nav-bar{
@@ -571,14 +585,11 @@ footer li{
     font-size: 18px;
   }
 
-  .glo_persona_sum{
-    width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .glo_comp_list li{
+    font-size: 18px;
   }
 
-  .glo_comp_list li{
+  .glo_testing li{
     font-size: 18px;
   }
 
@@ -666,8 +677,8 @@ footer li{
       margin-right: auto;
     }
 
-    .glo_stories{
-      width: 80%;
+    .small_image{
+      width: 20%;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -679,6 +690,7 @@ footer li{
       margin-left: auto;
       margin-right: auto;
     }
+
     /* Seperating boxes  */
     .box_coral{
       margin: 80px 0px 80px 0px;
@@ -810,11 +822,8 @@ footer li{
       padding-right: 50px;
     }
 
-    .glo_persona_sum{
-      width: 40%;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+    .glo_testing li{
+      font-size: 18px;
     }
 
     .desktop_only img{
